@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from '../images/logo.svg';
+import {Link} from 'react-router-dom';
 
 export default class Header extends Component {
     render() {
@@ -12,10 +13,10 @@ export default class Header extends Component {
                     <nav className="links">
                         <ul>
                             <li>
-                                <a href="#" className="menu__links">Лента</a>
+                                <Link to="/" className="menu__links">Лента</Link>
                             </li>
                             <li>
-                                <a href="#" className="menu__links">Профиль</a>
+                                <Link to="/profile/" className="menu__links">Профиль</Link>
                             </li>
                         </ul>
                     </nav>
