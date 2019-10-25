@@ -24,7 +24,16 @@ export default class instaService {
     _transformPosts = (post) => {
         return {
             src: post.src,
-            alt: post.alt
+            alt: post.alt,
+            id: post.id
+        }
+    }
+    _transformUsers = (post) => {
+        return {
+            name: post.name,
+            src: post.src,
+            alt: post.alt,
+            id: post.id
         }
     }
 }

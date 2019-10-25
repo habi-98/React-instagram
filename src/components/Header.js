@@ -7,9 +7,9 @@ export default class Header extends Component {
         return (
             <header>
                 <div className="container h-flex">
-                    <a href="#" className="logo">
+                    <Link to="/" className="logo">
                         <img src={logo} alt="logo"/>
-                    </a>
+                    </Link>
                     <nav className="links">
                         <ul>
                             <li>
