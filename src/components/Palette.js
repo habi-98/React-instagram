@@ -3,7 +3,7 @@ import InstaService from '../services/instaService';
 import ErrorMessage from './Error';
 
 export default class Palette extends Component{
-    InstaService = new InstaService()
+    InstaService = new InstaService();
     state = {
         error: false,
         photos: [],
